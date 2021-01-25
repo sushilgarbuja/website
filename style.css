@@ -9,15 +9,17 @@ body{
     background-color: #FFCC00;
 }
 .about-section {
-    padding: 25px 50px 50px;
+    padding: 25px 50px 150px;
+    margin: auto;
     text-align: center;
     background-color: #474e5d;
     color: white;
   }
 #contact{
-  padding: 25px 50px 100px;
+  padding: 25px 50px 500px;
+  width: auto;
   text-align: center;
-  background-color: #0f53e6;
+  background-color: #30394b;
   color: white;
 }
 .container-fluid {
@@ -25,7 +27,12 @@ body{
   padding-bottom: 30px;
 }
 /* footersection */
-
+footer{
+  /* position: relative; */
+  bottom: 0px;
+  width: 100%;
+  background: rgb(58, 53, 53);
+}
 
 /* endfootersection */
 
